@@ -2,6 +2,8 @@ from ursina import *
 
 app = Ursina()
 
+#this is background settings
+
 background = Entity(model='quad', color= color.blue, scale=55, z=10,y=15)
 camera.orthographic = True
 camera.fov = 18
